@@ -56,7 +56,7 @@ bootdisk:
 	db 0 ; Drive data
 
 DiskReadFailed:
-	; If the bootloader is missing or corrupted: ;
+	; If the NT or the ORSOFT kernel is missing or corrupted: ;
 	mov ah, 0x0e
 	mov al, '!'
 	int 0x10
