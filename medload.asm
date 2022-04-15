@@ -1,7 +1,7 @@
 ;ORSOFT Bootloader
 ;Copyrights:
 ;Omar Ismail
-
+[org 0x7e00]
 comp db "medos"
 mov bx, comp
 MOV AH, 0x0e
